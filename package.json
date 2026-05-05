@@ -1,0 +1,56 @@
+{
+  "name": "mysystem",
+  "version": "1.0.0",
+  "description": "A detailed privacy-friendly system information CLI and JavaScript library.",
+  "type": "module",
+  "main": "src/index.js",
+  "exports": {
+    ".": "./src/index.js"
+  },
+  "bin": {
+    "mysystem": "bin/cli.js"
+  },
+  "scripts": {
+    "test": "node --test",
+    "start": "node bin/cli.js",
+    "demo": "node bin/cli.js --public --markdown",
+    "prepack": "node --test",
+    "pack:dry": "npm pack --dry-run"
+  },
+  "keywords": [
+    "system-info",
+    "sysinfo",
+    "hardware",
+    "diagnostics",
+    "cli",
+    "privacy",
+    "support",
+    "troubleshooting",
+    "pc",
+    "node",
+    "gpu",
+    "cpu",
+    "ram",
+    "storage"
+  ],
+  "author": "Open Tech Academy",
+  "license": "MIT",
+  "engines": {
+    "node": ">=18"
+  },
+  "files": [
+    "bin",
+    "src",
+    "README.md",
+    "LICENSE",
+    "CHANGELOG.md"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ethantphillips/mysystem.git"
+  },
+  "bugs": {
+    "url": "https://github.com/ethantphillips/mysystem/issues"
+  },
+  "homepage": "https://github.com/ethantphillips/mysystem#readme"
+}
