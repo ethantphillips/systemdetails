@@ -36,7 +36,7 @@ async function main() {
     console.log(output);
   } catch (error) {
     console.error(`Error: ${error.message}`);
-    console.error("Run `mysystem --help` for usage.");
+    console.error("Run `systemdetails --help` for usage.");
     process.exitCode = 1;
   }
 }
@@ -120,21 +120,21 @@ function printVersion() {
 }
 
 function printHelp() {
-  console.log(`mysystem
+  console.log(`systemdetails
 
 A detailed privacy-friendly system information CLI.
 
 Usage:
-  mysystem [options]
+  systemdetails [options]
 
 Examples:
-  mysystem
-  mysystem --markdown
-  mysystem --json
-  mysystem --full
-  mysystem --network
-  mysystem --full --network --env
-  mysystem --compact
+  systemdetails
+  systemdetails --markdown
+  systemdetails --json
+  systemdetails --full
+  systemdetails --network
+  systemdetails --full --network --env
+  systemdetails --compact
 
 Options:
   --public          Hide sensitive details. Default.
@@ -154,7 +154,7 @@ Details included:
   optional network info, and optional environment info.
 
 Privacy:
-  By default, mysystem redacts hostnames, paths, IP addresses, MAC addresses,
+  By default, systemdetails redacts hostnames, paths, IP addresses, MAC addresses,
   serial numbers, shell paths, and environment details. Use --full only when
   you trust where you are posting the output.
 `);

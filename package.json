@@ -1,5 +1,5 @@
 {
-  "name": "mysystem",
+  "name": "systemdetails",
   "version": "1.0.0",
   "description": "A detailed privacy-friendly system information CLI and JavaScript library.",
   "type": "module",
@@ -8,7 +8,7 @@
     ".": "./src/index.js"
   },
   "bin": {
-    "mysystem": "bin/cli.js"
+    "systemdetails": "bin/cli.js"
   },
   "scripts": {
     "test": "node --test",
@@ -47,10 +47,10 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/ethantphillips/mysystem.git"
+    "url": "git+https://github.com/ethantphillips/systemdetails.git"
   },
   "bugs": {
-    "url": "https://github.com/ethantphillips/mysystem/issues"
+    "url": "https://github.com/ethantphillips/systemdetails/issues"
   },
-  "homepage": "https://github.com/ethantphillips/mysystem#readme"
+  "homepage": "https://github.com/ethantphillips/systemdetails#readme"
 }

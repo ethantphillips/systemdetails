@@ -1,34 +1,34 @@
-# mysystem
+# systemdetails
 
 A detailed privacy-friendly system information CLI and JavaScript library.
 
-`mysystem` is designed for tech support, GitHub issues, Discord troubleshooting, PC repair intake, and diagnostics. By default, it hides sensitive information so you can share specs without accidentally leaking hostnames, paths, IP addresses, MAC addresses, serial numbers, or shell paths.
+`systemdetails` is designed for tech support, GitHub issues, Discord troubleshooting, PC repair intake, and diagnostics. By default, it hides sensitive information so you can share specs without accidentally leaking hostnames, paths, IP addresses, MAC addresses, serial numbers, or shell paths.
 
 ## Install
 
 ```bash
-npm install -g mysystem
+npm install -g systemdetails
 ```
 
 Or run instantly:
 
 ```bash
-npx mysystem
+npx systemdetails
 ```
 
 ## Usage
 
 ```bash
-mysystem
+systemdetails
 ```
 
 ## Output formats
 
 ```bash
-mysystem
-mysystem --markdown
-mysystem --json
-mysystem --compact
+systemdetails
+systemdetails --markdown
+systemdetails --json
+systemdetails --compact
 ```
 
 ## More details
@@ -36,25 +36,25 @@ mysystem --compact
 Full mode:
 
 ```bash
-mysystem --full
+systemdetails --full
 ```
 
 Network details:
 
 ```bash
-mysystem --network
-mysystem --full --network
+systemdetails --network
+systemdetails --full --network
 ```
 
 Environment details:
 
 ```bash
-mysystem --full --env
+systemdetails --full --env
 ```
 
 ## What it reports
 
-`mysystem` attempts to report:
+`systemdetails` attempts to report:
 
 - OS name, version, kernel/release, build, uptime
 - CPU model, logical cores, speed, manufacturer, physical core details when available
@@ -76,13 +76,13 @@ Some details depend on your operating system and installed system tools.
 Public mode is the default:
 
 ```bash
-mysystem --public
+systemdetails --public
 ```
 
 Full mode includes more details:
 
 ```bash
-mysystem --full
+systemdetails --full
 ```
 
 Use full mode only when you trust where you are posting the output.
@@ -90,7 +90,7 @@ Use full mode only when you trust where you are posting the output.
 ## JavaScript API
 
 ```js
-import { getSystemInfo, formatMarkdown } from "mysystem";
+import { getSystemInfo, formatMarkdown } from "systemdetails";
 
 const info = await getSystemInfo({
   public: true
@@ -118,7 +118,7 @@ npm publish
 ## Repository
 
 ```txt
-https://github.com/ethantphillips/mysystem
+https://github.com/ethantphillips/systemdetails
 ```
 
 ## License
