@@ -1,5 +1,5 @@
 {
-  "name": "systemdetails",
+  "name": "getsystemdetails",
   "version": "1.0.0",
   "description": "A detailed privacy-friendly system information CLI and JavaScript library.",
   "type": "module",
